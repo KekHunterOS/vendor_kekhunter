@@ -5,9 +5,6 @@
 # Firmware related things
 include vendor/kekhunter/firmware/wireless-usb/wireless-usb.mk
 
-# Packages and Binaries to include
-include vendor/kekhunter/prebuilts/kekhunter/KekHunter.mk
-
 # Apps
 PRODUCT_PACKAGES += \
 	kekhunter \
