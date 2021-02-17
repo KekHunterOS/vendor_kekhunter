@@ -65,30 +65,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
 include $(BUILD_PREBUILT)
 
 #
-# Init.nethunter.rc binaries
-#
-
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := keyboard-descriptor.bin
-LOCAL_MODULE_TAGS  := optional
-LOCAL_SRC_FILES := $(LOCAL_MODULE)
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
-
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := mouse-descriptor.bin
-LOCAL_MODULE_TAGS  := optional
-LOCAL_SRC_FILES := $(LOCAL_MODULE)
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
-
-include $(BUILD_PREBUILT)
-
-#
 # Binaries of kekhunter/kekhunter
 #
 

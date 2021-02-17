@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <privapp-permissions package="com.team420.kekstore.privileged">
+    <privapp-permissions package="org.fdroid.kekstore.privileged">
         <permission name="android.permission.DELETE_PACKAGES"/>
         <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+        <permission name="android.permission.REQUEST_DELETE_PACKAGES"/>
     </privapp-permissions>
 </permissions>
 

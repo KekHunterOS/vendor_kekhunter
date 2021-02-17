@@ -18,9 +18,7 @@ PRODUCT_PACKAGES += \
 
 # Hid side things
 PRODUCT_PACKAGES += \
-	init.nethunter.rc \
-	keyboard-descriptor.bin \
-	mouse-descriptor.bin
+	init.nethunter.rc
 
 # Binaries NH
 PRODUCT_PACKAGES += \
